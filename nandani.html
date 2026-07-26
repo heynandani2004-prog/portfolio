@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="Portfolio of Nandani Mishra">
+    <meta name="author" content="Nandani Mishra">
+
+    <title>Nandani Mishra | Portfolio</title>
+
+    <!-- Font Icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Meyawo Main Styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+
+    <style>
+        /* =================================
+   EDUCATION SECTION
+================================= */
+
+        #education {
+            background-color: #ffffff;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+
+        /* =================================
+   EDUCATION HEADING
+================================= */
+
+        .education-heading {
+            margin-bottom: 60px;
+        }
+
+        .education-heading h2 {
+            font-size: 52px;
+            font-weight: 400;
+            color: #5b45b5;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .education-heading p {
+            font-size: 28px;
+            color: #111;
+            margin-bottom: 0;
+        }
+
+
+        /* =================================
+   EDUCATION TIMELINE
+================================= */
+
+        .education-timeline {
+            width: 80%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+
+        /* =================================
+   EDUCATION ITEM
+================================= */
+
+        .education-item {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            min-height: 210px;
+            position: relative;
+        }
+
+
+        /* =================================
+   LEFT SIDE
+================================= */
+
+        .education-left {
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            padding-right: 45px;
+            padding-top: 30px;
+        }
+
+
+        /* Education Icon */
+
+        .education-logo {
+            color: #999;
+            font-size: 50px;
+            text-align: center;
+        }
+
+
+        /* =================================
+   CENTER TIMELINE
+================================= */
+
+        .education-center {
+            position: absolute;
+            left: 40%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #999;
+        }
+
+
+        /* Timeline Circle */
+
+        .timeline-dot {
+            position: absolute;
+            top: 43px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            width: 20px;
+            height: 20px;
+
+            border: 2px solid #999;
+            background-color: #fff;
+
+            border-radius: 50%;
+        }
+
+
+        /* =================================
+   EDUCATION CONTENT
+================================= */
+
+        .education-content {
+            padding-left: 95px;
+            padding-top: 25px;
+            padding-bottom: 40px;
+            position: relative;
+        }
+
+
+        /* Purple Arrow */
+
+        .education-content::before {
+            content: "▶";
+
+            position: absolute;
+            left: 40px;
+            top: 37px;
+
+            color: #5b45b5;
+            font-size: 16px;
+        }
+
+
+        /* Date */
+
+        .education-date {
+            display: block;
+
+            color: #999;
+
+            font-size: 17px;
+
+            font-weight: 600;
+
+            margin-bottom: 15px;
+        }
+
+
+        /* Degree */
+
+        .education-content h3 {
+            color: #5b45b5;
+
+            font-size: 24px;
+
+            font-weight: 500;
+
+            margin-bottom: 15px;
+        }
+
+
+        /* Description */
+
+        .education-content p {
+            color: #111;
+
+            font-size: 16px;
+
+            line-height: 1.8;
+
+            max-width: 550px;
+
+            margin-bottom: 0;
+        }
+
+        .education-figure {
+            width: 100%;
+            height: 400px;
+
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            margin-top: -200px;
+            margin-bottom: 0px;
+        }
+
+        /* =================================
+   RESPONSIVE DESIGN
+================================= */
+
+        @media (max-width: 767px) {
+
+            #education {
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+
+
+            .education-heading h2 {
+                font-size: 38px;
+            }
+
+
+            .education-heading p {
+                font-size: 22px;
+            }
+
+
+            .education-timeline {
+                width: 100%;
+            }
+
+
+            .education-item {
+                grid-template-columns: 25% 75%;
+            }
+
+
+            .education-center {
+                left: 25%;
+            }
+
+
+            .education-left {
+                padding-right: 20px;
+            }
+
+
+            .education-logo {
+                font-size: 35px;
+            }
+
+
+            .education-content {
+                padding-left: 60px;
+            }
+
+
+            .education-content::before {
+                left: 25px;
+            }
+
+
+            .education-content h3 {
+                font-size: 20px;
+            }
+
+
+            .education-content p {
+                font-size: 14px;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+
+            <a class="logo" href="#home">Nandani Mishra</a>
+
+            <ul class="nav">
+
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+
+                <li class="item">
+                    <a class="link" href="#about">About Us</a>
+                </li>
+
+                <li class="item">
+                    <a class="link" href="#education">Education</a>
+                </li>
+
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+
+                <li class="item">
+                    <a class="link" href="#blog">Blogs</a>
+                </li>
+
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+            <!-- Mobile Navigation Toggle -->
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+
+            </a>
+
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+
+    <!-- =========================
+         HOME / HEADER
+    ========================== -->
+    <header id="home" class="header">
+
+        <div class="overlay"></div>
+
+        <div class="header-content container">
+
+            <!-- LEFT SIDE: PROFILE IMAGE -->
+            <div class="profile-image">
+                <img src="assets/imgs/girl.jpeg" alt="Nandani Mishra">
+            </div>
+
+            <!-- RIGHT SIDE: ALL CONTENT -->
+            <div class="home-content">
+
+                <h1 class="header-title">
+                    <span class="up">HI!</span>
+                    <span class="down">I am Nandani Mishra</span>
+                </h1>
+
+                <p class="header-subtitle">
+                    WELCOME TO MY PORTFOLIO
+                </p>
+
+                <a href="#portfolio" class="btn btn-primary">
+                    Explore My Work
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!-- End Home -->
+
+
+    <!-- =========================
+     ABOUT US SECTION
+    ========================== -->
+    <section class="section pt-0" id="about">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <!-- LEFT SIDE: ABOUT CONTENT -->
+                <div class="col-md-7">
+
+                    <p class="section-subtitle">
+                        WHO AM I?
+                    </p>
+
+                    <h2 class="about-heading">
+                        I'm Nandani Mishra, a Software developer & Researcher
+                    </h2>
+
+                    <p class="about-text">
+                        I am Nandani Mishra, a dedicated software developer and academic researcher specializing in
+                        machine learning and web technologies. I enjoy building robust applications using Python, PHP,
+                        as well as exploring innovative solutions in computational bioacoustics.
+                        <br><br>
+                        My focus is on continuously learning new technical skills, conducting impactful research, and
+                        developing
+                        meaningful, data-driven digital experiences.
+                    </p>
+
+                    <!-- SOCIAL LINKS -->
+                    <div class="connect-me">
+
+                        <span>CONNECT WITH ME</span>
+
+                        <a href="#">
+                            <i class="ti-angle-right"></i>
+                        </a>
+
+                        <a href="#" class="social-icon" target="_blank">
+                            <i class="ti-facebook"></i>
+                        </a>
+
+                        <a href="#" class="social-icon" target="_blank">
+                            <i class="ti-twitter-alt"></i>
+                        </a>
+
+                        <a href="#" class="social-icon" target="_blank">
+                            <i class="ti-dribbble"></i>
+                        </a>
+
+                        <a href="https://in.linkedin.com/in/nandani-mishra-257188296" class="social-icon"
+                            target="_blank">
+                            <i class="ti-linkedin"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/_nandaniimishra08_?igsh=anVscmpoZW1pdG9s" class="social-icon"
+                            target="_blank">
+                            <i class="ti-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT SIDE: SKILLS -->
+                <div class="col-md-5">
+
+                    <!-- HTML & CSS -->
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <span>HTML &amp; CSS</span>
+
+                            <strong>85%</strong>
+
+                        </div>
+
+                        <div class="progress">
+
+                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PYTHON -->
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <span>PYTHON</span>
+
+                            <strong>70%</strong>
+
+                        </div>
+
+                        <div class="progress">
+
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- JAVASCRIPT -->
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <span>JAVASCRIPT</span>
+
+                            <strong>90%</strong>
+
+                        </div>
+
+                        <div class="progress">
+
+                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- FIGMA -->
+                    <div class="skill-box">
+
+                        <div class="skill-header">
+
+                            <span>FIGMA</span>
+
+                            <strong>75%</strong>
+
+                        </div>
+
+                        <div class="progress">
+
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- End About Us -->
+
+
+    <!-- =========================
+     EDUCATION SECTION
+    ========================== -->
+    <section class="section" id="education">
+
+        <div class="container">
+
+            <!-- Section Heading -->
+            <div class="education-heading text-center">
+
+                <h2 class="section-title" style="text-transform: uppercase; color: #5B4B8A;">
+                    My Education
+                </h2>
+
+                <p class="section-subtitle mb-6" style="color: #000; font-size: 1.2rem;">
+                    Here's is my academic journey!
+                </p>
+
+            </div>
+
+
+            <!-- Education Timeline -->
+            <div class="education-timeline">
+
+
+                <!-- EDUCATION 1 : CLASS 10 -->
+                <div class="education-item">
+
+                    <!-- Left Side -->
+                    <div class="education-left">
+
+                        <div class="education-logo" style="display: flex; gap: 13px;">
+                            <i class="ti-book"></i>
+                            <h3>CLASS 10</h3>
+                        </div>
+
+                        <span class="education-line"></span>
+
+                    </div>
+
+
+                    <!-- Center Timeline -->
+                    <div class="education-center">
+
+                        <span class="timeline-dot"></span>
+
+                    </div>
+
+
+                    <!-- Right Side -->
+                    <div class="education-content">
+
+                        <h3 class="education-date">
+                            2020 - 2021
+                        </h3>
+
+
+
+                        <p style="font-weight: 500;">
+                            Completed my Class 10 education from Gyan Sthali Academy, Auraiya with 82% and a strong
+                            foundation in academic subjects and developed
+                            an interest in learning new skills.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- EDUCATION 2 : CLASS 12 -->
+                <div class="education-item">
+
+                    <!-- Left Side -->
+                    <div class="education-left">
+
+                        <div class="education-logo" style="display: flex; gap: 13px;">
+                            <i class="ti-book"></i>
+                            <h3>CLASS 12</h3>
+                        </div>
+
+                        <span class="education-line"></span>
+
+                    </div>
+
+
+                    <!-- Center Timeline -->
+                    <div class="education-center">
+
+                        <span class="timeline-dot"></span>
+
+                    </div>
+
+
+                    <!-- Right Side -->
+                    <div class="education-content">
+
+                        <h3 class="education-date">
+                            2022 - 2023
+                        </h3>
+
+                        <p style="font-weight: 500;">
+                            Completed my Class 12 education from Gyan Sthali Academy, Auraiya with 70% and continued
+                            developing my knowledge and skills as I prepared
+                            for higher education.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- EDUCATION 3 : B.TECH -->
+                <div class="education-item">
+
+                    <!-- Left Side -->
+                    <div class="education-left">
+
+                        <div class="education-logo" style="display: flex; gap: 13px;">
+                            <i class="ti-ruler-pencil"></i>
+                            <h3>
+                                B.TECH PURSUING
+                            </h3>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Center Timeline -->
+                    <div class="education-center">
+
+                        <span class="timeline-dot"></span>
+
+                    </div>
+
+
+                    <!-- Right Side -->
+                    <div class="education-content">
+
+                        <h3 class="education-date">
+                            2024 - Present
+                        </h3>
+
+
+
+                        <p style="font-weight: 500;">
+                            Currently pursuing my Bachelor of Technology
+                            degree from GL Bajaj group of instituions, Mathura and continuously improving my technical
+                            knowledge, programming skills and problem-solving
+                            abilities.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- End Education -->
+
+    <div class="education-figure" style="background-image: url('assets/imgs/education-figure.png');">
+    </div>
+
+
+    <!-- =========================
+     BLOG SECTION
+    ========================== -->
+    <section class="section" id="blog">
+
+        <div class="container text-center">
+
+            <h2 class="section-title" style="text-transform: uppercase; color: #5B4B8A;">
+                I Also Like To Write
+            </h2>
+
+            <p class="section-subtitle mb-6" style="color: #000; font-size: 1.2rem;">
+                Check out my latest posts!
+            </p>
+
+            <!-- Use a flexbox or grid wrapper like Bootstrap's 'row' for horizontal alignment -->
+            <div class="row text-left" style="display: flex; gap: 20px; justify-content: center; text-align: left;">
+
+                <!-- Blog 1 -->
+                <div class="blog-card" style="flex: 1; border: 1px solid #eee; background: #fff;">
+
+                    <div class="blog-card-header" style="position: relative;">
+
+                        <img src="assets/imgs/post-01.png" class="blog-card-img" alt="Blog Post"
+                            style="width: 100%; display: block;">
+
+                        <!-- Overlay Button -->
+                        <a href="#" class="blog-card-link-overlay"
+                            style="position: absolute; bottom: 15px; right: 15px; border: 1px solid #fff; color: #fff; padding: 5px 15px; border-radius: 20px; text-decoration: none; font-size: 12px; background: rgba(255, 255, 255, 0.2);">
+                            READ MORE
+                        </a>
+
+                    </div>
+
+                    <div class="blog-card-body">
+
+                        <h5 class="blog-card-title">
+                            How to become a frontend developer
+                        </h5>
+
+                        <p style="font-weight: 400;">
+
+                            Master essential technologies like HTML, CSS, and JavaScript, along with responsive design
+                            frameworks, to build modern and user-friendly websites.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Blog 2 -->
+                <div class="blog-card" style="flex: 1; border: 1px solid #eee; background: #fff;">
+
+                    <div class="blog-card-header" style="position: relative;">
+
+                        <img src="assets/imgs/post-02.png" class="blog-card-img" alt="Blog Post"
+                            style="width: 100%; display: block;">
+
+                        <!-- Overlay Button -->
+                        <a href="#" class="blog-card-link-overlay"
+                            style="position: absolute; bottom: 15px; right: 15px; border: 1px solid #fff; color: #fff; padding: 5px 15px; border-radius: 20px; text-decoration: none; font-size: 12px; background: rgba(255, 255, 255, 0.2);">
+                            READ MORE
+                        </a>
+
+                    </div>
+
+                    <div class="blog-card-body">
+
+                        <h5 class="blog-card-title">
+                            My personal productivity system
+                        </h5>
+
+                        <p style="font-weight: 400;">
+                            Discover the specific tools and daily habits I use to efficiently balance my academic
+                            research, software development, and teaching responsibilities.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Blog 3 -->
+                <div class="blog-card" style="flex: 1; border: 1px solid #eee; background: #fff;">
+
+                    <div class="blog-card-header" style="position: relative;">
+
+                        <img src="assets/imgs/post-03.png" class="blog-card-img" alt="Blog Post"
+                            style="width: 100%; display: block;">
+
+                        <!-- Overlay Button -->
+                        <a href="#" class="blog-card-link-overlay"
+                            style="position: absolute; bottom: 15px; right: 15px; border: 1px solid #fff; color: #fff; padding: 5px 15px; border-radius: 20px; text-decoration: none; font-size: 12px; background: rgba(255, 255, 255, 0.2);">
+                            READ MORE
+                        </a>
+
+                    </div>
+
+                    <div class="blog-card-body">
+
+                        <h5 class="blog-card-title">
+                            My year in review 2020
+                        </h5>
+
+                        <p style="font-weight: 400;">
+                            Reflecting on a pivotal year where I navigated remote learning challenges and laid the
+                            technical groundwork for my current machine learning research.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- End Blogs -->
+
+
+    <div
+        style="background-image: linear-gradient(rgba(18, 12, 54, 0.7), rgba(18, 12, 54, 0.7)), url('assets/imgs/bg-cta.jpg'); background-size: cover; background-position: center; padding: 120px 20px; text-align: center; font-family: 'Arial', sans-serif; box-sizing: border-box; width: 100%;">
+
+        <h2
+            style="color: #ffffff; font-size: 38px; font-weight: 300; margin: 0 0 35px 0; text-transform: uppercase; letter-spacing: 1px; line-height: 1.3;">
+            Keep <span style="font-weight: 800;">Up-To-Date</span><br>
+            With What I'm Up To
+        </h2>
+
+        <form
+            style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 8px; max-width: 700px; margin: 0 auto;">
+
+            <input type="email" placeholder="Give me your Email"
+                style="flex: 1; min-width: 280px; padding: 18px 25px; border: none; border-radius: 3px; font-size: 15px; color: #333333; outline: none; font-family: inherit;">
+
+            <button type="submit"
+                style="background-color: #fae115; color: #1c1452; border: none; padding: 18px 35px; border-radius: 3px; font-size: 15px; font-weight: 800; text-transform: uppercase; cursor: pointer; font-family: inherit;">
+                Join The Club
+            </button>
+
+        </form>
+
+    </div>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <div class="container">
+
+        <footer class="footer">
+
+            <p class="mb-0" style="font-weight: 600;">
+                Copyright
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                &copy; Nandani Mishra
+            </p>
+
+            <div class="social-links text-right m-auto ml-sm-auto">
+
+                <a href="#" class="link">
+                    <i class="ti-facebook"></i>
+                </a>
+
+                <a href="#" class="link">
+                    <i class="ti-twitter-alt"></i>
+                </a>
+
+                <a href="#" class="link">
+                    <i class="ti-instagram"></i>
+                </a>
+
+                <a href="#" class="link">
+                    <i class="ti-linkedin"></i>
+                </a>
+
+                <a href="#" class="link">
+                    <i class="ti-github"></i>
+                </a>
+
+            </div>
+
+        </footer>
+
+    </div>
+    <!-- End Footer -->
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <!-- jQuery -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- Bootstrap Affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo JavaScript -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+
+</html>
